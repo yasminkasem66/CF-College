@@ -1,0 +1,59 @@
+body {
+  background: #f2f4f8;
+  color:#333538;
+  font-family:"Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 112.5%;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  font-size: 1.3em;
+  background-color: #645cff;
+  border-radius: 20px;
+  padding: 1.2rem 2.5rem;
+  margin-right: 2rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.4), 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+  transition: 0.3s ease-in-out all;
+  text-transform: capitalize;
+
+}
+
+/*************
+main
+*************/
+.main-color{
+    color: #645cff;
+}
+.flex{
+  display: flex;
+}
+.justify-content-center{
+  justify-content: center;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.linkslist-container{
+  margin-bottom: 60px;
+}
+.linkslist{
+  margin-left: 50px;
+}
+
+.table-section{
+  margin-right: 90px;
+}
+td, th{
+  padding:8px
+}
+
+.rows-title h5{
+  padding-top:30px;
+  margin-right: 30px;
+}
